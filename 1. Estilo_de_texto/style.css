@@ -1,4 +1,4 @@
-*{font-family:sans-serif;
+*{font-family: Comic Sans MS;
 }
 h1{
     background-color: black;
@@ -19,8 +19,8 @@ h3{ background-color:aqua;
     text-decoration: underline;
 }
 
-/*menos importante es la etiqueta > clase y luego > ID*/
+/*menos importante es la etiqueta > clase y luego > ID */
 /*nivel de especificidad 1. ID, 2. clase 3.etiqueta 
-#id 
-. clase
-nombre de la etiqueta = etiqueta 
+# = id,
+. = clase,
+y nombre de la etiqueta = etiqueta.*/
