@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form
+        </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>
+            Form
+        </h1>
+        <form>
+            <div>
+            <label for="nombreUsuario">
+                Nombre
+            </label>
+            <input type="text" name="nombreUsuario" id="nombreUsuario">
+            </div>
+            <div>
+            <label for="apellidoUsuario">
+                Apellido
+            </label>
+            <input type="text" name="apellidoUsuario" id="apellidoUsuario">
+        </div>
+        <div>
+            <label for="fechaNacimiento">Fecha de nacimiento</label>
+            <input type="date" name="fechaNacimiento" id="fechaNacimiento">
+        </div>
+        <div>
+            <label id="passwordUsuario">
+                Contraseña
+                <input type="password" name="passwordUsuario" id="passwordUsuario"> <!--"name" nos ayuda a jalar el dato, en trabajos para registros-->
+        </div>
+            </label>
+        
+            <div> Tienes hermanos/as?
+            <label for="hermanos">
+                No
+            </label>
+
+            <input type="radio" name="hermanos" id="hermanos">
+            <label for="sihermanos">
+                Sí
+            </label>
+            <input type="radio" name="hermanos" id="sihermanos">
+        
+        </div>
+        <div>
+            <label>
+                Qué lenguajes conoces?
+                <input type="checkbox" name="lenguajes" id="css">
+                <label for="css">
+                    CSS
+                </label>
+            </label>
+            <input type="checkbox" name="lenguajes" id="Python">
+            <label for="Python">
+                Python
+            </label>
+            <input type="checkbox" name="lenguajes" id="Javascript">
+            <label for="Javascript">
+                Javascript
+            </label>
+        </div>    
+        <div>
+            <label for="paisresidencia">
+                País de residencia
+            </label>
+            <select name="país" id="paisresidencia">
+                <option>Chile</option>
+                <option>México</option>
+                <option>Perú</option>
+            </select>
+        </div>
+        <div>
+            <label>Déjanos un comentario
+
+            </label>
+            <textarea name="comentario"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <button type="button">
+                Enviar de nuevo
+            </button>
+        </div>
+    </form> 
+    </body>
+</html>
