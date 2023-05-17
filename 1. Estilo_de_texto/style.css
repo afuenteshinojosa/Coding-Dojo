@@ -1,0 +1,26 @@
+*{font-family:sans-serif;
+}
+h1{
+    background-color: black;
+    color: white;
+    padding: 0px;
+}
+#cloud{ color:aqua
+}
+h2{ font-style: italic;
+    background-color: blueviolet;
+    color:white;
+    text-align: center;
+    
+}
+h3{ background-color:aqua;
+    color: blue;
+    text-align: end;
+    text-decoration: underline;
+}
+
+/*menos importante es la etiqueta > clase y luego > ID*/
+/*nivel de especificidad 1. ID, 2. clase 3.etiqueta 
+#id 
+. clase
+nombre de la etiqueta = etiqueta 
